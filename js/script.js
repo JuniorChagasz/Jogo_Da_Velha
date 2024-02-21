@@ -130,7 +130,6 @@ function exibirTemporizador() {
     }, 1000); // Atualiza o temporizador a cada segundo
 }
 
-
 function reiniciarTemporizador() {
     temporizador.textContent = ''; // Oculta o temporizador ao reiniciar o jogo
 }
