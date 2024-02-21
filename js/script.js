@@ -3,6 +3,15 @@ var jogador_vez = '✖️';
 var jogadas = 9;
 var jogo_acabou = false; // Variável para controlar se o jogo acabou
 
+// Elementos de informação na tela
+var jogadorInfo = document.getElementById('jogador');
+var jogadasInfo = document.getElementById('jogadas');
+
+function atualizarInfo() {
+    jogadorInfo.textContent = 'Jogador da vez: ' + jogador_vez;
+    jogadasInfo.textContent = 'Jogadas restantes: ' + jogadas;
+}
+
 // Elemento de temporizador na tela
 var temporizador = document.getElementById('temporizador');
 
